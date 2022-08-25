@@ -2,6 +2,36 @@
     width: 85%;
 }
 
+.banner-sec-1 {
+    padding-top: 10vh;
+}
+
+.banner-text-1 {
+    font-size: 8vh;
+}
+
+.discount {
+    position: absolute;
+    top: 32vh;
+    right: 28vh;
+    padding: 2vh;
+
+}
+
+.owl-carousel .owl-nav {
+    text-align: right;
+    font-size: 20;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background-color: rgb(0, 102, 255);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 10px 5px;
+
+}
 
 
 @media only screen and (max-width:600px) {
@@ -9,5 +39,10 @@
         list-style: none;
     }
 
+    .discount {
+        position: absolute;
+        top: 87vh;
+        right: 2vh;
 
+    }
 }
