@@ -13,10 +13,12 @@
 .discount {
     position: absolute;
     top: 32vh;
-    right: 28vh;
+    right: 32vh;
     padding: 2vh;
 
 }
+
+
 
 .owl-carousel .owl-nav {
     text-align: right;
@@ -41,6 +43,10 @@
 
 }
 
+.employee {
+    width: 20vh;
+}
+
 .product-nav {
     text-decoration: none;
     color: black;
@@ -60,15 +66,67 @@
     border-radius: 15px;
 }
 
+.footer-atag {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-font {
+    font-size: 3vh;
+}
+
 @media only screen and (max-width:600px) {
     .navbar-mob {
         list-style: none;
     }
 
+    .banner-sec-1 {
+        text-align: center;
+    }
+
     .discount {
         position: absolute;
-        top: 87vh;
+        top: 8vh;
         right: 2vh;
 
+    }
+
+    .banner-sec-2 {
+        position: relative;
+        width: 100%;
+    }
+
+    .product-nav {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1200) {
+    .navbar-mob {
+        list-style: none;
+    }
+
+    .banner-sec-1 {
+        text-align: center;
+    }
+
+    .discount {
+        position: absolute;
+        top: 56vh;
+        right: 18vh;
+
+    }
+
+    .banner-sec-2 {
+        position: relative;
+        width: 100%;
+    }
+
+    .product-nav {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
     }
 }
