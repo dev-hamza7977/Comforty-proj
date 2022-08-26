@@ -23,16 +23,42 @@
     font-size: 20;
 }
 
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: rgb(145, 147, 148);
+    border: solid 2px rgb(6, 6, 6);
+}
+
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
-    background-color: rgb(0, 102, 255);
+    background-color: rgb(71, 114, 255);
     border-radius: 50%;
     height: 60px;
     width: 60px;
     margin: 10px 5px;
+    color: white;
 
 }
 
+.product-nav {
+    text-decoration: none;
+    color: black;
+}
+
+.card-product {
+    margin-top: 2vh;
+    margin-right: 1vh;
+}
+
+.card:hover {
+    /* box-shadow: 3px 3px #888888; */
+    box-shadow: 0 .5rem 1rem black;
+}
+
+.card-img {
+    border-radius: 15px;
+}
 
 @media only screen and (max-width:600px) {
     .navbar-mob {
